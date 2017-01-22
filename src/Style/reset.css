@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0
+}
+
+.clearfix {clear:both}
+
+.leaflet-container {
+        height: 400px;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+.dashcard{
+        position:absolute;
+      }
+.leaflet-control-container{
+  position: relative;
+}
+.tempDiv{
+  border:1px dashed blue;
+  background:#5a72f8;
+  position:absolute;
+  filter:alpha(opacity:10);
+  opacity:0.2;
+  z-index: 2000
+}
